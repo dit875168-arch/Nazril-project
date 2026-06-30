@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAZRIL ILHAM — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <span class="logo">NAZRIL ILHAM<span class="cursor">_</span></span>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow">// selamat datang di profil saya</p>
+      <h1>Saya membangun <span class="hl">software</span> yang rapi, jelas, dan benar-benar berjalan.</h1>
+      <p class="hero-sub">Developer yang senang merancang alur logika dari nol — mulai dari sistem kasir sampai antarmuka yang nyaman dipakai.</p>
+      <a href="#projects" class="btn">Lihat proyek saya ↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <p class="section-label">01 — Tentang</p>
+      <div class="about-grid">
+        <p class="about-text">
+          Saya seorang siswa yang tertarik pada sistem yang punya logika nyata di baliknya: bagaimana keranjang belanja menghitung diskon, bagaimana struk tercetak rapi, bagaimana antarmuka tetap terasa ringan walau prosesnya rumit. Saya suka memecah masalah besar jadi langkah-langkah kecil yang bisa diuji satu per satu.
+        </p>
+        <ul class="facts">
+          <li><span>Fokus</span>Logic &amp; Desain Antarmuka</li>
+          <li><span>Bahasa</span>C#, JavaScript</li>
+          <li><span>Minat</span>Aplikasi desktop, tools internal</li>
+          <li><span>Sedang belajar</span>Desain UI yang lebih ekspresif</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <p class="section-label">02 — Proyek</p>
+
+      <article class="project-row">
+        <div class="project-head">
+          <h3>Aplikasi Kasir (POS) — Tema Indomaret</h3>
+          <span class="tag">C# · Console</span>
+        </div>
+        <p>Sistem kasir berbasis console yang lengkap: manajemen katalog produk, logika keranjang, diskon bertingkat, berbagai metode pembayaran, cetak struk, hingga laporan penjualan harian.</p>
+        <ul class="dotline">
+          <li><span>Manajemen produk</span><i></i><span>✓</span></li>
+          <li><span>Diskon bertingkat</span><i></i><span>✓</span></li>
+          <li><span>Cetak struk</span><i></i><span>✓</span></li>
+          <li><span>Laporan penjualan</span><i></i><span>✓</span></li>
+        </ul>
+      </article>
+
+      <article class="project-row">
+        <div class="project-head">
+          <h3>Konsep Desktop App — Dark IDE Aesthetic</h3>
+          <span class="tag">C# · UI Eksplorasi</span>
+        </div>
+        <p>Eksplorasi tampilan desktop bergaya editor kode: gelap, fokus, minim distraksi — dirancang untuk pengguna yang menghabiskan waktu lama di depan aplikasi.</p>
+      </article>
+
+      <article class="project-row placeholder">
+        <div class="project-head">
+          <h3>Proyek berikutnya...</h3>
+          <span class="tag">Segera</span>
+        </div>
+        <p>Slot ini menunggu proyek baru kamu. Edit langsung di index.html.</p>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <p class="section-label">03 — Kontak</p>
+      <h2>Punya proyek atau ide yang ingin didiskusikan?</h2>
+      <p class="contact-sub">Saya terbuka untuk obrolan, kolaborasi, atau sekadar bertukar ide soal software.</p>
+      <div class="contact-links">
+        <a href="mailto:nama@email.com">nzreal@email.com</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> NAZRIL ILHAM. Dibuat dengan rapi, sebaris demi sebaris.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
